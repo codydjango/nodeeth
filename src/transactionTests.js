@@ -7,17 +7,6 @@ var sendingAddressPrivateKey = '54ca6b20ded9f46ed7de453b0d73b4058d3298f100bfc032
 var sendingAddressPrivateKeyHex = Buffer.from('54ca6b20ded9f46ed7de453b0d73b4058d3298f100bfc032a95c1cc15c6791c6', 'hex')
 var receivingAddressPublicKey = '0x70e0dB3F42652C97A6D11CAAf133208EbD41f65b'
 
-
-
-// web3.eth.getAccounts().then(console.log)
-// web3.eth.getBalance(sendingAddressPrivateKey).then(console.log)
-// web3.eth.getBalance(receivingAddressPublicKeyingAddress).then(console.log)
-
-// console.log(web3.utils.fromWei('1000', 'ether'))
-// console.log(web3.utils.toWei('1', 'ether'))
-
-
-
 const getCurrentGasPrices = async () => {
     let 
     
